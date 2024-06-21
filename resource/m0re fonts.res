@@ -2,7 +2,27 @@ Scheme
 {
 	Fonts
 	{
-		
+		"Futura9"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Medium"
+				"tall"		"9"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"Futura20"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Medium"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		Symbols
 		{
 			"1"
@@ -1146,8 +1166,13 @@ Scheme
 		}
 		"21"
 		{
-			"font"		"resource/scheme/fonts/Oxygen-Bold.ttf"
+			"font"		"resource/fonts/Oxygen-Bold.ttf"
 			"name"		"Oxygen Bold"
+		}
+		"22"
+		{
+			"font" "resource/fonts/FuturaStd-Medium.otf"
+			"name" "FuturaStd-Medium"
 		}
 	}
 }
