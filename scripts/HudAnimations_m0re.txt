@@ -12,7 +12,10 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"0 255 100 255" 					Accel 	0.0 0.0
 	
 	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValue				FgColor 	"Ammo In Reserve" 					Accel 	0.0 0.0	//green color im lazy lol
+	Animate PlayerStatusHealthValue				FgColor 	"Buffed HP" 						Accel 	0.0 0.0
+	
+	Animate PlayerStatusHealthvalueTargetID		Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthvalueTargetID 	FgColor 	"TargetID Buffed HP" 				Linear 	0.0	0.0
 
 	
 	RunEvent HudHealthBonusPulseLoop			0.4
@@ -38,6 +41,9 @@ event HudHealthBonusPulseStop
 	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.01
 	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Linear 	0.0 0.0
 	
+	Animate PlayerStatusHealthvalueTargetID		Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthvalueTargetID 	FgColor 	"Health Numbers" 					Linear 	0.0	0.0
+	
 }
 
 //====================================================================================================================
@@ -54,6 +60,9 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.01
 	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Accel 	0.0 0.0
 	
+//	Animate PlayerStatusHealthvalueTargetID		Alpha 		"255" 								Linear 	0.0 0.01
+//	Animate PlayerStatusHealthvalueTargetID 	FgColor 	"TargetID Hurt" 					Linear 	0.0	0.0
+	
 	RunEvent HudHealthDyingPulseLoop			0.25
 }
 
@@ -69,6 +78,9 @@ event HudHealthDyingPulseStop
 	
 	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255" 								Linear 	0.0 0.0
 	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Health Numbers" 					Accel 	0.0 0.0
+	
+//	Animate PlayerStatusHealthvalueTargetID		Alpha 		"255" 								Linear 	0.0 0.01
+//	Animate PlayerStatusHealthvalueTargetID 	FgColor 	"Health Numbers" 					Linear 	0.0	0.0
 	
 }
 

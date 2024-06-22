@@ -19,6 +19,10 @@ Scheme
 		"Damage Numbers"									"235 235 235 255"
 		"Heal Numbers"										"0 255 0 255"
 		
+		"Buffed HP"											"50 255 187 255"	// same as reserve ammo
+		"TargetID Buffed HP"								"67 161 246 255"	//light blue
+		"TargetID Hurt"										"255 153 0 255"		//rayshud orange
+		
 		
 		"M0reBlue"											"86 133 201 255"
 		"M0reRed"											"200 65 55 255"
