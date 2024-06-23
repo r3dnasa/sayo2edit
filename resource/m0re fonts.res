@@ -165,62 +165,6 @@ Scheme
 				"antialias"									"1"
 			}
 		}
-		"chippyBold30OL"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"30"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"outline"	"1"
-			}
-		}
-		"chippyBold26OL"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"26"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"outline"	"1"
-			}
-		}
-		"chippyBold22OL"
-		{
-			"1"
-			{
-			"name"		"Maven Pro Bold"
-			"tall"		"22"
-			"weight"	"500"
-			"range"		"0x0000 0x017F"
-			"antialias"	"1"
-			"outline"	"1"
-			}
-		}
-		"quake28OL"
-		{
-			"1"
-			{
-				"name"										"Kairos Sans Medium"
-				"tall"										"28"
-				"antialias" 								"1"
-				"outline" 									"1"
-			}
-		}
-		"quake28"
-		{
-			"1"
-			{
-				"name"										"Kairos Sans Medium"
-				"tall"										"28"
-				"antialias" 								"1"
-				"outline" 									"0"
-			}
-		}
 		"m0refont30Numbers"
 		{
 			"1"
@@ -502,7 +446,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"Product Sans Bold"
+				"name"										"Surface-Medium"
 				"tall"										"20"
 				"additive"									"0"
 				"antialias" 								"1"
@@ -1098,78 +1042,45 @@ Scheme
 	{
 		"8" 
 		{
-			"font" 		"resource/fonts/ProductSans-Regular.ttf"
+			"font" 		"resource/fonts/ProductSans-Regular.ttf"	// chat font
 			"name" 		"Product Sans"
-		}
-		
+		}	
 		"9" 
-		{
-			"font" 		"resource/fonts/COOLVETI.TTF"
-			"name" 		"Coolvetica"
-		}
-		
-		"10" 
 		{
 			"font" 		"resource/fonts/Blocks.ttf"
 			"name" 		"Blocks"
 		}
-		
-		"11"
+		"10"
 		{
 			"font" 		"resource/fonts/Icons.ttf"
 			"name" 		"Icons"
 		}
-		"12" 
-		{
-			"font" 		"resource/fonts/Product Sans Bold.ttf"
-			"name" 		"Product Sans Bold"
-		}
-		"13" 
-		{
-			"font" 		"resource/fonts/HeavyCaps.ttf"
-			"name" 		"HeavyCaps"
-		}
-		"14" 
+		"11" 
 		{
 			"font" 		"resource/fonts/Surface_Medium.otf"
 			"name" 		"Surface-Medium"
 		}
-		"15" 
+		"12" 
 		{
 			"font" 		"resource/fonts/Catamaran-SemiBold.ttf"
 			"name" 		"Catamaran SemiBold"
 		}
-		"16"
-		{
-			"font" "resource/fonts/MavenPro-Medium.ttf"
-			"name" "Maven Pro Bold"
-	    }
-		"17" 
-		{
-			"font" 		"resource/fonts/ASTRO867.TTF"
-			"name" 		"Astro 867"
-		}
-		"18"
+		"13"
 		{
 			"font" 		"resource/fonts/surface_numbers.otf"
 			"name" 		"Surface-Numbers"
 		}
-		"19"
-		{
-			"font" 		"resource/fonts/Kairos-Sans-Medium.ttf"
-			"name" 		"Kairos Sans Medium"
-		}
-		"20"
+		"14"
 		{
 			"font"		"resource/fonts/m0rehud_icons.ttf"
 			"name"		"m0rehud Icons V11"
 		}
-		"21"
+		"15"
 		{
 			"font"		"resource/fonts/Oxygen-Bold.ttf"
 			"name"		"Oxygen Bold"
 		}
-		"22"
+		"16"
 		{
 			"font" "resource/fonts/FuturaStd-Medium.otf"
 			"name" "FuturaStd-Medium"
