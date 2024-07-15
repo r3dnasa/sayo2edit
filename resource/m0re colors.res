@@ -47,6 +47,9 @@ Scheme
 		"Metal"				"137 159 179 255"
 		"Gray"				"165 165 165 255"		
 		
+		"softred"								"180 65 55 255"
+		"softblue"								"86 133 181 255"
+		
 	}
 	
 	BaseSettings

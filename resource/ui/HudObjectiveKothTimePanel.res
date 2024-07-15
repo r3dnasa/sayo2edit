@@ -8,17 +8,71 @@
 		}
 	}
 	
+	"BlueLine"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlueLine"
+		"xpos"			"53"
+		"ypos"			"-1"
+		"zpos"			"10"
+		"wide"			"35"
+		"tall"			"2"
+		"alpha"			"160"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"fillcolor"		"softblue"
+		"visible"		"1"
+		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+		if_match
+		{
+			"visible" 			"0"
+		}
+	}
+	"RedLine"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"RedLine"
+		"xpos"			"103"
+		"ypos"			"-1"
+		"zpos"			"10"
+		"wide"			"35"
+		"tall"			"2"
+		"alpha"			"160"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"fillcolor"		"softred"
+		"visible"		"1"
+		"enabled"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+		if_match
+		{
+			"visible" 			"0"
+		}
+	}
+	
 	"BlueTimer"
 	{
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"BlueTimer"
-		"xpos"										"26"
+		"xpos"										"25"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
+		"delta_item_x"								"40"
+		"delta_item_start_y"						"20"
+		"delta_item_end_y"							"20"
 		
 		"TimePanelValue"
 		{
@@ -26,8 +80,8 @@
 			"fieldName"								"TimePanelValue"
 			"font"									"M0refont14Bold"
 			"fgcolor"								"White"
-			"xpos"									"30"
-			"ypos"									"-7"
+			"xpos"									"29"
+			"ypos"									"1"
 			"zpos"									"3"
 			"wide"									"33"
 			"tall"									"18"
@@ -35,7 +89,7 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-						"fillcolor"		"0 0 0 160"
+			"fillcolor"		"0 0 0 160"
 			"bgcolor_override"		"0 0 0 160"
 			
 			if_match
@@ -51,13 +105,16 @@
 	{
 		"ControlName"								"CTFHudTimeStatus"
 		"fieldName"									"RedTimer"
-		"xpos"										"76"
+		"xpos"										"75"
 		"ypos"										"0"
 		"zpos"										"2"
 		"wide"										"100"
 		"tall"										"50"
 		"visible"									"1"
 		"enabled"									"1"
+		"delta_item_x"								"25"
+		"delta_item_start_y"						"20"
+		"delta_item_end_y"							"20"
 		
 		"TimePanelValue"
 		{
@@ -65,8 +122,8 @@
 			"fieldName"								"TimePanelValue"
 			"font"									"M0refont14Bold"
 			"fgcolor"								"White"
-			"xpos"									"30"
-			"ypos"									"-7"
+			"xpos"									"29"
+			"ypos"									"1"
 			"zpos"									"3"
 			"wide"									"33"
 			"tall"									"18"
@@ -91,13 +148,13 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ActiveTimerBG"
 		"xpos"										"0"
-		"ypos"										"-4"
+		"ypos"										"19"
 		"zpos"										"1"
-		"wide"										"44"
-		"tall"										"20"
+		"wide"										"33"
+		"tall"										"2"
 		"visible"									"0"
 		"enabled"									"1"
-		"fillcolor"  								"0 0 0 160"	
+		"fillcolor"  								"0 255 0 160"	
 		"scaleImage"								"1"	
 	}
 }
