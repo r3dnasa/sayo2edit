@@ -94,8 +94,8 @@
 		"wide"			"0"
 		"alpha"			"255"
 		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillcolor"			"180 180 180 0"
 		"border"			"noborder"
 		"scaleImage"	"1"
@@ -112,8 +112,8 @@
 		"wide"			"0"
 		"alpha"			"0"
 		"tall"			"17"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"fillcolor"			"47 185 123 255"
 		"scaleImage"	"1"
 	}
@@ -125,8 +125,7 @@
 		"fieldName"		"PlayerStatusPlayerLevel"
 		"xpos"			"8"
 		"xpos_minmode"	"0"
-		"ypos"			"9"	[$WIN32]
-		"ypos"			"0"	[$X360]
+		"ypos"			"9"
 		"zpos"			"5"
 		"wide"			"16"
 		"tall"			"12"

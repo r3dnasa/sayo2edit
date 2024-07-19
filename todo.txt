@@ -1,0 +1,10 @@
+take koth status from colly
+widen chargebars
+update item counters for eyelander, frontier justice, etc..
+add closed captions
+update ubercharge stuff
+update scoreboard from yesods collyedit
+fix mvm scoreboard
+add build menu and destroy menu from collyedit
+maybe add spy disguise from colly?
+add picked up item panel from yayahud

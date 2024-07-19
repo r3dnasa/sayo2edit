@@ -28,7 +28,7 @@
 
 	"CapPlayerImage"
 	{
-		"ControlName"								"ImagePanel"		
+		"ControlName"								"ImagePanel"
 		"fieldName"	  								"CapPlayerImage"
 		"xpos"		   						 		"0"
 		"ypos"		    							"2"
@@ -63,7 +63,7 @@
 
 	"OverlayImage"
 	{
-		"ControlName"	    						"ImagePanel"		
+		"ControlName"	    						"ImagePanel"
 		"fieldName"	      							"OverlayImage"
 		"xpos"		        						"18"
 		"ypos"		        						"0"
@@ -93,12 +93,6 @@
 		"brighttext"	  							"0"
 		"wrap"			    						"0"
 		"font"			    						"ControlPointTimer"
-		"font_minmode"								"ControlPointTimerSmaller"
-		
-		if_mvm
-		{
-			"visible"								"0"
-		}
 	}
 				
 	"CPTimerBG"

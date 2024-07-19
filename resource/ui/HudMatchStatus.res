@@ -198,7 +198,7 @@
 		
 		if_match
 		{
-			"delta_item_x"							"9999"
+//			"delta_item_x"							"9999"
 		}
 		
 		"TimePanelValue"
@@ -208,7 +208,7 @@
 			"font"									"M0refont14Bold"
 			"fgcolor"								"White"
 			"xpos"									"33"
-			"ypos"									"-2"
+			"ypos"									"5"
 			"zpos"									"3"
 			"wide"									"33"
 			"tall"									"18"
@@ -220,8 +220,8 @@
 			"bgcolor_override"		"0 0 0 160"
 			if_match
 			{
-				"font"								"M0refont14Bold"
-				"ypos"								"5"
+//				"font"								"M0refont14Bold"
+//				"ypos"								"5"
 			}
 		}	
 	}

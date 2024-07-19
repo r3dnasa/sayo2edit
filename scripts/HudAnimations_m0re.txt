@@ -3,19 +3,29 @@
 //  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
 //====================================================================================================================
 
+// guide: 
+// PlayerStatusHealthBonusImage = Overheal Cross
+// PlayerStatusHealthvalueSpecgui = Tournament Hud Health
+// PlayerStatusHealthValue = Health
+// PlayerStatusHealthvalueTargetID = TargetID Health
+// PlayerStatusHealthValueMain = Freezepanel Health
+
 event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"								Linear 	0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.2 0.4
 	
 	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255"								linear 	0.0 0.01
-	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"0 255 100 255" 					Accel 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"TargetID Buffed HP" 				Accel 	0.0 0.0
 	
 	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.01
 	Animate PlayerStatusHealthValue				FgColor 	"Buffed HP" 						Accel 	0.0 0.0
 	
 	Animate PlayerStatusHealthvalueTargetID		Alpha 		"255" 								Linear 	0.0 0.01
 	Animate PlayerStatusHealthvalueTargetID 	FgColor 	"TargetID Buffed HP" 				Linear 	0.0	0.0
+	
+	Animate PlayerStatusHealthValueMain			Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValueMain 		FgColor 	"Buffed HP" 						Linear 	0.0	0.0
 
 	
 	RunEvent HudHealthBonusPulseLoop			0.4
@@ -44,6 +54,11 @@ event HudHealthBonusPulseStop
 	Animate PlayerStatusHealthvalueTargetID		Alpha 		"255" 								Linear 	0.0 0.01
 	Animate PlayerStatusHealthvalueTargetID 	FgColor 	"Health Numbers" 					Linear 	0.0	0.0
 	
+	// maybe unnecessary?
+	
+	Animate PlayerStatusHealthValueMain			Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValueMain 		FgColor 	"Health Numbers" 					Linear 	0.0	0.0
+	
 }
 
 //====================================================================================================================
@@ -56,9 +71,13 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255" 								Linear 	0.0 0.0
 	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"255 200 70 255" 					Linear 	0.0 0.0
 	
-	
 	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.01
 	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Accel 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueMain 		Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValueMain 		FgColor 	"255 0 0 255" 						Accel 	0.0 0.0
+	
+	// disabled rn cause looked a lil weird
 	
 //	Animate PlayerStatusHealthvalueTargetID		Alpha 		"255" 								Linear 	0.0 0.01
 //	Animate PlayerStatusHealthvalueTargetID 	FgColor 	"TargetID Hurt" 					Linear 	0.0	0.0
@@ -78,6 +97,9 @@ event HudHealthDyingPulseStop
 	
 	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255" 								Linear 	0.0 0.0
 	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Health Numbers" 					Accel 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueMain			Alpha 		"255" 								Linear 	0.0 0.0
+	Animate PlayerStatusHealthValueMain 		FgColor 	"Health Numbers" 					Accel 	0.0 0.0
 	
 //	Animate PlayerStatusHealthvalueTargetID		Alpha 		"255" 								Linear 	0.0 0.01
 //	Animate PlayerStatusHealthvalueTargetID 	FgColor 	"Health Numbers" 					Linear 	0.0	0.0
@@ -215,20 +237,6 @@ event HudTournamentSetupPanelClose
 
 //====================================================================================================================
 
-event CompetitiveGame_LowerChatWindow
-{
-}
-
-event CompetitiveGame_RestoreChatWindow
-{
-}
-
-event HudTournament_MoveChatWindow
-{
-}
-
-//====================================================================================================================
-
 event HudSnapShotReminderIn
 {
     RunEvent HudHealthDyingPulseStop 			10.0
@@ -236,11 +244,6 @@ event HudSnapShotReminderIn
     RunEvent HudLowAmmoPulseStop 				10.0
     RunEvent HudMedicChargedStop 				10.0
 }
-
-//====================================================================================================================
-
-event TeamStatus_PlayerDead{}
-event TeamStatus_PlayerAlive{}
 
 //====================================================================================================================
 
@@ -266,3 +269,14 @@ event DamagedPlayer
 {
 	//RunEvent ScopeRemoval 				0.0
 }
+
+//====================================================================================================================
+// removed
+
+event TeamStatus_PlayerDead{}
+event TeamStatus_PlayerAlive{}
+event RDPositiveScorePulse{}
+event RDNegativeScorePulse{}
+event CompetitiveGame_LowerChatWindow{}
+event CompetitiveGame_RestoreChatWindow{}
+event HudTournament_MoveChatWindow{}

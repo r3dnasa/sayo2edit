@@ -8,6 +8,10 @@
 		}
 	}
 	
+//============================================================
+//	disabled rn cause it looks meh and centering is a bitch
+//============================================================
+	
 	"BlueLine"
 	{
 		"ControlName"		"ImagePanel"
@@ -21,8 +25,8 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"fillcolor"		"softblue"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 
 		if_mvm
 		{
@@ -46,8 +50,8 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"fillcolor"		"softred"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 
 		if_mvm
 		{
@@ -58,6 +62,8 @@
 			"visible" 			"0"
 		}
 	}
+	
+//============================================================
 	
 	"BlueTimer"
 	{

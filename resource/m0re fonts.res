@@ -2,6 +2,16 @@ Scheme
 {
 	Fonts
 	{
+		"CrossHairKonrWings"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"18"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
 		"Futura9"
 		{
 			"1"
@@ -173,17 +183,6 @@ Scheme
 				"tall"										"30"
 				"antialias" 								"1"
 				"outline" 									"1"
-			}
-		}
-		"M0rexhairDot"
-		{
-			"1"
-			{
-				"name"		   								"Astro 867"
-				"tall"		   								"19"
-				"weight"	   								"0"
-				"additive"   								"0"
-				"outline"    								"1"
 			}
 		}
 		"cdam"
@@ -1082,8 +1081,13 @@ Scheme
 		}
 		"16"
 		{
-			"font" "resource/fonts/FuturaStd-Medium.otf"
-			"name" "FuturaStd-Medium"
+			"font" 		"resource/fonts/FuturaStd-Medium.otf"
+			"name" 		"FuturaStd-Medium"
+		}
+		"17"
+		{
+			"font" 		"resource/fonts/Garm3nFont.ttf"	// konrwings
+			"name" 		"Garm3nFont"
 		}
 	}
 }

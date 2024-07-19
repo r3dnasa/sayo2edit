@@ -1,3 +1,4 @@
+#base "xhair.res"
 "Resource/UI/HudPlayerClass.res"
 {
 	"speedo"
@@ -58,6 +59,21 @@
 		"image"										"../hud/class_scoutred"
 		"scaleImage"								"1"
 		"alpha"										"0"
+	}
+	
+	"PlayerStatusSpyOutlineImage"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"PlayerStatusSpyOutlineImage"
+		"xpos"			"3"	
+		"ypos"			"r67"
+		"zpos"			"7"
+		"wide"			"55"
+		"tall"			"55"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/class_spy_outline"
+		"scaleImage"	"1"	
 	}
 	
 	"classmodelpanel"
@@ -210,21 +226,7 @@
 		"tall"										"0"
 		"visible"									"0"
 		"enabled"									"0"
-	}	
-	"PlayerStatusSpyOutlineImage"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos"			"3"	
-		"ypos"			"r67"
-		"zpos"			"7"
-		"wide"			"55"
-		"tall"			"55"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/class_spy_outline"
-		"scaleImage"	"1"	
-	}	
+	}
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"								"CTFImagePanel"
