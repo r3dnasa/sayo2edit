@@ -143,8 +143,10 @@
 		"TextEntry.CursorColor"								"White"
 		"TextEntry.DisabledTextColor"						"White"
 		"TextEntry.DisabledBgColor"							"Blank"
-		"TextEntry.SelectedTextColor"						"Black"
-		"TextEntry.SelectedBgColor"							"160 165 170 255"
+		// ========================================================== looks better for chat :p
+		"TextEntry.SelectedTextColor"						"White"
+		"TextEntry.SelectedBgColor"							"Orange"
+		// ==========================================================
 		"TextEntry.OutOfFocusSelectedBgColor"				"160 165 170 255"
 		"TextEntry.FocusEdgeColor"							"0 0 0 200"
 

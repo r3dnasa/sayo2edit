@@ -1,6 +1,6 @@
 //  ____________________
 // | M0rehud animations |
-//  ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯
+//  Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯
 //====================================================================================================================
 
 // guide: 
@@ -10,16 +10,25 @@
 // PlayerStatusHealthvalueTargetID = TargetID Health
 // PlayerStatusHealthValueMain = Freezepanel Health
 
+//-----------------------------------------------------
+//Scope Removal
+//-----------------------------------------------------
+
+event ScopeRemoval
+{
+Animate HudScope Position	"9999 9999" Linear 0.0 0.0
+}
+
 event HudHealthBonusPulse
 {
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"255"								Linear 	0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 		Alpha		"0"									Linear 	0.2 0.4
 	
-	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255"								linear 	0.0 0.01
-	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"TargetID Buffed HP" 				Accel 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255"								Linear 	0.0 0.01
+	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"TargetID Buffed HP" 				Linear 	0.0 0.0
 	
 	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValue				FgColor 	"Buffed HP" 						Accel 	0.0 0.0
+	Animate PlayerStatusHealthValue				FgColor 	"Buffed HP" 						Linear 	0.0 0.0
 	
 	Animate PlayerStatusHealthvalueTargetID		Alpha 		"255" 								Linear 	0.0 0.01
 	Animate PlayerStatusHealthvalueTargetID 	FgColor 	"TargetID Buffed HP" 				Linear 	0.0	0.0
@@ -43,10 +52,10 @@ event HudHealthBonusPulseStop
 	StopEvent HudHealthBonusPulseLoop			0.0
 	
 	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Health Numbers" 					Accel	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Health Numbers" 					Linear	0.0 0.0
 	
 	Animate PlayerStatusHealthvalueSpecguiLow 	Alpha 		"0" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthvalueSpecguiLow 	FgColor 	"0 0 0 0" 							Accel 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecguiLow 	FgColor 	"0 0 0 0" 							Linear 	0.0 0.0
 	
 	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.01
 	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Linear 	0.0 0.0
@@ -72,10 +81,10 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"255 200 70 255" 					Linear 	0.0 0.0
 	
 	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Accel 	0.0 0.0
+	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Linear 	0.0 0.0
 	
 	Animate PlayerStatusHealthValueMain 		Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValueMain 		FgColor 	"255 0 0 255" 						Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueMain 		FgColor 	"255 0 0 255" 						Linear 	0.0 0.0
 	
 	// disabled rn cause looked a lil weird
 	
@@ -96,10 +105,10 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 			0.0
 	
 	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Health Numbers" 					Accel 	0.0 0.0
+	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"Health Numbers" 					Linear 	0.0 0.0
 	
 	Animate PlayerStatusHealthValueMain			Alpha 		"255" 								Linear 	0.0 0.0
-	Animate PlayerStatusHealthValueMain 		FgColor 	"Health Numbers" 					Accel 	0.0 0.0
+	Animate PlayerStatusHealthValueMain 		FgColor 	"Health Numbers" 					Linear 	0.0 0.0
 	
 //	Animate PlayerStatusHealthvalueTargetID		Alpha 		"255" 								Linear 	0.0 0.01
 //	Animate PlayerStatusHealthvalueTargetID 	FgColor 	"Health Numbers" 					Linear 	0.0	0.0
@@ -237,13 +246,7 @@ event HudTournamentSetupPanelClose
 
 //====================================================================================================================
 
-event HudSnapShotReminderIn
-{
-    RunEvent HudHealthDyingPulseStop 			10.0
-    RunEvent HudHealthBonusPulseStop 			10.0
-    RunEvent HudLowAmmoPulseStop 				10.0
-    RunEvent HudMedicChargedStop 				10.0
-}
+event HudSnapShotReminderIn{}	// old
 
 //====================================================================================================================
 
@@ -257,17 +260,20 @@ event ActiveTimerHighlight
 	Animate TimePanelValue					FgColor		"245 245 245 235"	Linear 0.0 0.1
 }
 
-//-----------------------------------------------------
-//Scope Removal
-//-----------------------------------------------------
+//====================================================================================================================
 
-//event ScopeRemoval
-//{
-//Animate HudScope Position	"9999 9999" Linear 0.0 0.0
-//}
 event DamagedPlayer
 {
-	//RunEvent ScopeRemoval 				0.0
+	RunEvent ScopeRemoval 				0.0
+}
+
+event CompetitiveGame_RestoreChatWindow
+{
+	RunEvent HudHealthDyingPulseStop 			0.1
+    RunEvent HudHealthBonusPulseStop 			0.1
+    RunEvent HudLowAmmoPulseStop 				0.1
+    RunEvent HudMedicChargedStop 				0.1
+	RunEvent ScopeRemoval 						0.0
 }
 
 //====================================================================================================================
@@ -278,5 +284,4 @@ event TeamStatus_PlayerAlive{}
 event RDPositiveScorePulse{}
 event RDNegativeScorePulse{}
 event CompetitiveGame_LowerChatWindow{}
-event CompetitiveGame_RestoreChatWindow{}
 event HudTournament_MoveChatWindow{}

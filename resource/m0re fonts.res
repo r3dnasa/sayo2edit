@@ -12,27 +12,27 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Futura9"
-		{
-			"1"
-			{
-				"name"		"FuturaStd-Medium"
-				"tall"		"9"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
+//		"Futura9"
+//		{
+//			"1"
+//			{
+//				"name"		"FuturaStd-Medium"
+//				"tall"		"9"
+//				"additive"	"0"
+//				"antialias" "1"
+//			}
+//		}
 
-		"Futura20"
-		{
-			"1"
-			{
-				"name"		"FuturaStd-Medium"
-				"tall"		"20"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
+//		"Futura20"
+//		{
+//			"1"
+//			{
+//				"name"		"FuturaStd-Medium"
+//				"tall"		"20"
+//				"additive"	"0"
+//				"antialias" "1"
+//			}
+//		}
 		Symbols
 		{
 			"1"
@@ -246,6 +246,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		"m0refont10Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"10"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
 		M0refont11
 		{
 			"1"
@@ -254,6 +264,16 @@ Scheme
 				"tall"										"11"
 				"additive"									"0"
 				"antialias" 								"1"
+			}
+		}
+		"m0refont11Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"11"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		M0refont11Bold
@@ -286,6 +306,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		"m0refont12Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"12"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
 		m0refont12Outline
 		{
 			"1"
@@ -315,6 +345,16 @@ Scheme
 				"tall"										"14"
 				"additive"									"0"
 				"antialias" 								"1"
+			}
+		}
+		"m0refont14Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"14"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		M0refont14Bold
@@ -357,6 +397,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		"m0refont16Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"16"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
 		M0refont16bold
 		{
 			"1"
@@ -375,6 +425,16 @@ Scheme
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
+			}
+		}
+		"m0refont18Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"18"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		M0refont18Outline
@@ -396,6 +456,16 @@ Scheme
 				"tall"										"18"
 				"additive"									"0"
 				"antialias" 								"1"
+			}
+		}
+		"m0refont18Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"18"
+				"antialias"									"1"
+				"outline"									"1"
 			}
 		}
 		M0refont20
@@ -549,6 +619,26 @@ Scheme
 				"outline"									"0"
 			}
 		}
+		"m0refont24Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"24"
+				"antialias"									"1"
+				"dropshadow"								"1"
+			}
+		}
+		"m0refont24Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"24"
+				"antialias"									"1"
+				"outline"									"1"
+			}
+		}
 		
 		Score
 		{
@@ -612,6 +702,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		"m0refont30Numbers"
+		{
+			"1"
+			{
+				"name"										"Surface-Numbers"
+				"tall"										"30"
+				"antialias"									"1"
+				"outline"									"1"
+			}
+		}
 		M0refont32
 		{
 			"1"
@@ -620,6 +720,16 @@ Scheme
 				"tall"										"32"
 				"additive"									"0"
 				"antialias" 								"1"
+			}
+		}
+		"m0refont32Shadow"
+		{
+			"1"
+			{
+				"name"										"Surface-Medium"
+				"tall"										"32"
+				"antialias"									"1"
+				"dropshadow"								"1"
 			}
 		}
 		M0refont32Bold
@@ -1079,11 +1189,11 @@ Scheme
 			"font"		"resource/fonts/Oxygen-Bold.ttf"
 			"name"		"Oxygen Bold"
 		}
-		"16"
-		{
-			"font" 		"resource/fonts/FuturaStd-Medium.otf"
-			"name" 		"FuturaStd-Medium"
-		}
+//		"16"
+//		{
+//			"font" 		"resource/fonts/FuturaStd-Medium.otf"
+//			"name" 		"FuturaStd-Medium"
+//		}
 		"17"
 		{
 			"font" 		"resource/fonts/Garm3nFont.ttf"	// konrwings

@@ -1,4 +1,5 @@
 #base "HudItemEffectMeter.res"
+
 "Resource/UI/HudRocketPack.res"
 {
 	"ItemEffectMeter"
@@ -11,7 +12,7 @@
 		"fieldName"				"ItemEffectMeter2"
 		"font"					"Default"
 		"xpos"					"75"
-		"ypos"					"1"
+		"ypos"					"1"	//	copy this from huditemeffectmeter, cant be transfered using #base
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"3"				

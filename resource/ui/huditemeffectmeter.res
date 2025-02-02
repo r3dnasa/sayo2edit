@@ -6,29 +6,14 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"
-		"ypos"			"c123"
+		"ypos"			"c138"	//-10, -20								//	c123
 		"wide"			"150"
 		"tall"			"8"
 		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
 	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"12"
-		"ypos"			"6"
-		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_horiz1_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
-		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"			
-	}
+	// notes for editing, remember to edit sodapopper and scout to apply to everything
 	
 	"ItemEffectMeterLabel"
 	{
@@ -66,9 +51,24 @@
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
-		"textAlignment"			"Center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"bgcolor_override"		"0 0 0 100"
+		"proportionaltoparent"						"1"
 	}
+	
+	//==================================================================================================================================================
+	// REMOVED ELEMENTS
+	//==================================================================================================================================================
+
+	"ItemEffectMeterBG"
+	{
+		"ControlName"								"CTFImagePanel"
+		"fieldName"									"ItemEffectMeterBG"
+		"xpos"										"9999"
+		"ypos"										"9999"
+		"wide"										"0"
+		"tall"										"0"
+		"visible"									"0"
+		"enabled"									"0"
+	}
+	
 }

@@ -10,8 +10,8 @@
 		"zpos"			"7"
 		"wide"			"60"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"image"			"../vgui/replay/thumbnails/numbers"
 		"drawcolor"		"Health Numbers"
@@ -26,12 +26,13 @@
 		"zpos"			"6"
 		"wide"			"60"
 		"tall"			"18"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"image"			"../vgui/replay/thumbnails/numbers"
 		"drawcolor"		"0 0 0 255"
 	}
+	
 	"HudPlayerClass"
 	{
 		"ControlName"								"EditablePanel"

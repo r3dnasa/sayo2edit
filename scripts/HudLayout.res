@@ -18,16 +18,35 @@
 		"scaleImage"								"1"
 	}
 	
-	HudWeaponAmmo
+//	HudWeaponAmmo
+//	{
+//		"fieldName" "HudWeaponAmmo"
+//		"visible" "1"
+//		"enabled" "1"
+//		"xpos"	"c99"	//c99
+//		"ypos"	"r170"	//170
+//		"wide"	"320"
+//		"tall"	"120"
+//	}
+	
+	"HudWeaponAmmo"
 	{
-		"fieldName" "HudWeaponAmmo"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"c98"	
-		"ypos"	"r178"	
-		"wide"	"320"
-		"tall"	"120"
-    }
+		"fieldName"									"HudWeaponAmmo"
+		"visible"									"1"
+		"enabled"									"1"
+		"xpos"										"0"
+		"ypos"										"0"
+		"wide"										"f0"
+		"tall"										"f0"
+	}
+	
+	"HudBossHealth"
+	{
+		"xpos"										"cs-0.5"
+		"ypos"										"65"
+		"wide"										"172"
+		"tall"										"50"
+	}
 	
 	HudKothTimeStatus
 	{
@@ -43,7 +62,7 @@
 	
 		"red_active_xpos"							"104"
 
-	}	
+	}
 
 	HudItemEffectMeter
 	{
@@ -72,7 +91,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"
-		"ypos"			"r129"	//r133
+		"ypos"			"r120"	//r133
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"10"
@@ -196,7 +215,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c129"
+		"ypos"		"c95"
 		"wide"	 	"252"
 		"tall"	 	"34"
 		"priority"	"35"
@@ -309,13 +328,14 @@
 
 	ArenaWinPanel
 	{
-		"fieldName"				"ArenaWinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-225"
-		"ypos"					"250"
-		"wide"					"450"
-		"tall"					"218"
+		"fieldName"					"ArenaWinPanel"
+		"visible"					"1"
+		"enabled"					"1"
+		"xpos"						"0"
+		"ypos"						"-15"
+		"zpos"						"20"
+		"wide"						"f0"
+		"tall"						"f0"
 	}
 	
 	PVEWinPanel
@@ -411,9 +431,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"	
-		"ypos"			"r160"	
+		"ypos"			"r250"	
 		"wide"			"120"
-		"tall"			"60"
+		"tall"			"80"
 	}			
 
 	HudTournament

@@ -632,6 +632,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
+				"antialias" "1"
 			}
 			"2"
 			{
@@ -640,6 +641,7 @@ Scheme
 				"tall"		"23"	[$X360]
 				"weight"	"700"
 				"yres"	"600 767"
+				"antialias" "1"
 			}
 			"3"
 			{
@@ -647,6 +649,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"700"
 				"yres"	"768 1023"
+				"antialias" "1"
 			}
 			"4"
 			{
@@ -654,6 +657,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"700"
 				"yres"	"1024 1199"
+				"antialias" "1"
 			}
 			"5"
 			{
@@ -661,6 +665,7 @@ Scheme
 				"tall"		"24"
 				"weight"	"700"
 				"yres"	"1200 10000"
+				"antialias" "1"
 			}
 		}
 		"HudFontGiant"
@@ -5655,6 +5660,66 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}			
-		"7" "resource/ocra.ttf"
-		
+		"7"
+		{
+			"font"	"resource/ocra.ttf"
+			"name" "ocra"
+			"turkish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"german"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"french"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x007E"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x007E"
+			}
+		}
+	}	
 }

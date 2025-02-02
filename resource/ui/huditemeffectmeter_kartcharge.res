@@ -36,7 +36,7 @@
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"0"
 		"ypos"					"20"
-		"zpos"					"2"
+		"zpos"					"40"
 		"wide"					"150"
 		"tall"					"8"
 		"autoResize"			"1"

@@ -231,7 +231,7 @@
 		"ControlName"								"CTFTeamStatus"
 		"fieldName"									"TeamStatus"
 		"xpos"										"0"
-		"ypos"										"0"
+		"ypos"										"6"	//0, 6 for inline with round timer
 		"zpos"										"2"
 		"wide"										"f0"
 		"tall"										"15"
@@ -244,11 +244,11 @@
 		"12v12_gap"									"1"
 
 		"team1_grow_dir"							"west"
-		"team1_base_x"								"c-45"
+		"team1_base_x"								"c-45"	//c-45
 		"team1_max_expand"							"260"
 
 		"team2_grow_dir"							"east"
-		"team2_base_x"								"c47"
+		"team2_base_x"								"c45"	//c47
 		"team2_max_expand"							"260"
 
 		"PlayerPanels_KV"

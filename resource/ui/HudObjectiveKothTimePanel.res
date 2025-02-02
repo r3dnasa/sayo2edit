@@ -159,7 +159,7 @@
 		"wide"										"33"
 		"tall"										"2"
 		"visible"									"0"
-		"enabled"									"1"
+		"enabled"									"0"
 		"fillcolor"  								"0 255 0 160"	
 		"scaleImage"								"1"	
 	}

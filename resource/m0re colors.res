@@ -8,9 +8,9 @@ Scheme
 		"Ammo In Reserve"									"50 255 187 255"
 		"Ammo No Clip"										"235 235 235 255"
 
-		"Low Ammo In Clip"									"222 187 255 255"
-		"Low Ammo In Reserve"								"222 187 255 255"
-		"Low Ammo No Clip"									"222 187 255 255"
+		"Low Ammo In Clip"									"232 0 0 255"	//"222 187 255 255"
+		"Low Ammo In Reserve"								"232 0 0 255"	//"222 187 255 255"
+		"Low Ammo No Clip"									"232 0 0 255"	//"222 187 255 255"
 
 		"Ubercharge"										"235 235 235 255"
 		"Ubercharge Full"									"46 224 180 200"

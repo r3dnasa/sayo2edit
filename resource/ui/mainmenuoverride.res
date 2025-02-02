@@ -1,4 +1,4 @@
-#base "../../resource/extra/preload.res"
+#base "../../resource/preload.res"
 
 "Resource/UI/MainMenuOverride.res"
 {
@@ -1371,8 +1371,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MOTD_HeaderIcon"
-			"xpos"			"265"
-			"ypos"			"25"
+			"xpos"			"250"
+			"ypos"			"22"
 			"zpos"			"100"
 			"wide"			"25"
 			"tall"			"25"

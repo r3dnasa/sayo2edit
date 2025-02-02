@@ -132,5 +132,18 @@
 		"TFFont"									"HudFontSmall"
 		"HealthDeathWarningColor"					"HUDDeathWarning"
 		"TextColor"									"HudOffWhite"
+	
+		//	bigger is better
+
+		"PlayerStatusHealthValueTargetID"
+		{
+			"font"									"M0refont22"
+		}
+
+		"PlayerStatusHealthValueTargetIDShadow"
+		{
+			"font"									"M0refont22"
+		}
+	
 	}
 }
