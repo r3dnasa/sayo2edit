@@ -1,5 +1,6 @@
 #base "../resource/m0re colors.res"
 #base "../resource/m0re fonts.res"
+#base "../resource/m0re borders.res"
 #base "../resource/crosshairs/crosshair_scheme.res"
 
 //
