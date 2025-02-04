@@ -1,6 +1,6 @@
-#base "../resource/m0re colors.res"
-#base "../resource/m0re fonts.res"
-#base "../resource/m0re borders.res"
+#base "../resource/scheme/m0re colors.res"
+#base "../resource/scheme/m0re fonts.res"
+#base "../resource/scheme/m0re borders.res"
 #base "../resource/crosshairs/crosshair_scheme.res"
 
 //
@@ -254,8 +254,8 @@ Scheme
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"TanLight"
-		Button.BgColor					"TanDark"
-		Button.ArmedTextColor			"TanLight"
+		Button.BgColor									"MenuTransBlack"
+		Button.ArmedTextColor							"White"
 		Button.ArmedBgColor				"TFOrange"
 		Button.SelectedTextColor		"TanLight"
 		Button.SelectedBgColor			"TFOrange"

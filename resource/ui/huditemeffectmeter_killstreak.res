@@ -88,7 +88,7 @@
 		"enabled"				"1"
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
-		"font"					"PRODUCT8"
+		"font"					"productbold8"
 		"bgcolor"		"0 0 0 165"
 		"bgcolor_override"		"0 0 0 165"
 		"fgcolor"				"245 245 245 110"

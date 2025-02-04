@@ -1,8 +1,9 @@
-lower sticky chargebar and probably bring it align with regualr bars
+brighten up mmdashpanel
+lower sticky chargebar and probably bring it align with regular bars
 widen chargebars // probs not gonna
 update item counters for eyelander, frontier justice, etc..
 add closed captions //broken?
-update ubercharge stuff //?
+update ubercharge stuff //? (will steal from m0rehud lol)
 add build menu and destroy menu from collyedit
 maybe add spy disguise from colly?
 add picked up item panel from yayahud //uneccessary but maybe
