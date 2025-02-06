@@ -6,9 +6,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"
-		"ypos"			"c138"	//-10, -20								//	c123
+		"ypos"			"c123"	//-10, -20								//	c123,	c138
 		"wide"			"150"
-		"tall"			"8"
+		"tall"			"3"
 		"MeterFG"		"TanLight"
 		"MeterBG"		"Gray"
 	}
@@ -31,8 +31,6 @@
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
 		"font"					"aRegular8"
 		"fgcolor_override"		"150 150 150 255"
 	}
@@ -43,7 +41,7 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"35"
-		"ypos"					"1"
+		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"80"
 		"tall"					"3"				

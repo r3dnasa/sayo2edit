@@ -25,6 +25,7 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
 	}
+	
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -46,6 +47,7 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
+
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
@@ -67,6 +69,7 @@
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"
 	}
+
 	"TargetBGshade"
 	{
 		"ControlName"	"ImagePanel"
@@ -83,6 +86,7 @@
 		"fillcolor"		"0 0 0 100"
 		"PaintBackgroundType"	"0"
 	}
+
 	"TargetNameLabel"
 	{	
 		"ControlName"		"Label"
@@ -141,12 +145,13 @@
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"			"HudOffWhite"
 	}
+
 	"AmmoIcon"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoIcon"
-		"xpos"			"40"
-		"ypos"			"25"
+		"xpos"			"35"
+		"ypos"			"1"
 		"zpos"			"12"
 		"wide"			"8"
 		"tall"			"8"

@@ -13,7 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"HealthBonusPosAdj"	"32"
-		"HealthDeathWarning"	".49"
+		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HudDeathWarning"
 	}
 	"PlayerStatusHealthImage"
@@ -74,10 +74,10 @@
 		"font"			"M0refont49C"
 		"fgcolor"		"Health Numbers"
 	}
-	"PlayerStatusHealthValueMainShadow"
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueMainShadow"
+		"fieldName"		"PlayerStatusHealthValueShadow"
 //		"xpos"			"34"
 //		"ypos"			"36"	//32
 		"xpos"			"-2"

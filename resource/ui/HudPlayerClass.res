@@ -1,37 +1,38 @@
 #base "xhair.res"
+#base "speedometre.res"
 "Resource/UI/HudPlayerClass.res"
 {
-	"speedo"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"speedo"
-		"xpos" 			"c-30"
-		"ypos" 			"c175"	//c85
-		"zpos"			"7"
-		"wide"			"60"
-		"tall"			"18"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"image"			"../vgui/replay/thumbnails/numbers"
-		"drawcolor"		"Health Numbers"
-	}
-	
-	"speedos"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"speedos"
-		"xpos" 			"c-29"
-		"ypos" 			"c176"	//c86
-		"zpos"			"6"
-		"wide"			"60"
-		"tall"			"18"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"image"			"../vgui/replay/thumbnails/numbers"
-		"drawcolor"		"0 0 0 255"
-	}
+//	"speedo"
+//	{
+//		"ControlName"	"ImagePanel"
+//		"fieldName"		"speedo"
+//		"xpos" 			"c-30"
+//		"ypos" 			"c175"	//c85
+//		"zpos"			"7"
+//		"wide"			"60"
+//		"tall"			"18"
+//		"visible"		"0"
+//		"enabled"		"0"
+//		"scaleImage"	"1"	
+//		"image"			"../vgui/replay/thumbnails/numbers"
+//		"drawcolor"		"Health Numbers"
+//	}
+//	
+//	"speedos"
+//	{
+//		"ControlName"	"ImagePanel"
+//		"fieldName"		"speedos"
+//		"xpos" 			"c-29"
+//		"ypos" 			"c176"	//c86
+//		"zpos"			"6"
+//		"wide"			"60"
+//		"tall"			"18"
+//		"visible"		"0"
+//		"enabled"		"0"
+//		"scaleImage"	"1"	
+//		"image"			"../vgui/replay/thumbnails/numbers"
+//		"drawcolor"		"0 0 0 255"
+//	}
 	
 	"HudPlayerClass"
 	{

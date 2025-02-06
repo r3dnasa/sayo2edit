@@ -90,8 +90,8 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-75"
-		"ypos"			"r120"	//r133
+		"xpos"			"c-40"
+		"ypos"			"r124"	//r133
 		"zpos"			"2"
 		"wide"			"150"
 		"tall"			"10"
@@ -179,8 +179,8 @@
 		"fieldName" 								"DisguiseStatus"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"-260"	//-290
-		"ypos"										"5"		//60
+		"xpos"										"-240"	//-290, -260
+		"ypos"										"5"		//60, 5
 		"wide"										"f0"
 		"tall"										"480"
 	}
@@ -215,7 +215,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c95"
+		"ypos"		"c129"
 		"wide"	 	"252"
 		"tall"	 	"34"
 		"priority"	"35"
@@ -431,7 +431,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"	
-		"ypos"			"r250"	
+		"ypos"			"r185"	//r250
 		"wide"			"120"
 		"tall"			"80"
 	}			

@@ -5,7 +5,10 @@
 //	#base "HudPlayerHealth_sayo2.res"
 
 //	numbers
-	#base "HudPlayerHealth_sayo3.res"
+//	#base "HudPlayerHealth_sayo3.res"
+	
+// combo?
+	#base "combohealth.res"
 
 
 "Resource/UI/HudPlayerHealth.res"

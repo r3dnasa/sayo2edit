@@ -339,10 +339,10 @@
 		"ypos"					"0"
 		"zpos"					"10000"
 		"wide"					"150"
-		"tall"					"50"
+		"tall"					"30"
 		"visible"				"0"
 		"PaintBackgroundType"	"2"
-		"border"				"LoadoutItemPopupBorder"
+		"border"				"Black_Transparent_50"
 		"paintbackground"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		
@@ -2623,7 +2623,7 @@
 		"fgcolor_override"			"236 236 236 60"
 		"defaultfgcolor_override"	"236 236 236 60"
 		"armedfgcolor_override"		"236 236 236 240"
-		"armedbgcolor_override"		"255 255 255 16"
+		"armedbgcolor_override"		"softred160"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -2675,13 +2675,14 @@
 		"dulltext"					"0"
 		"brighttext"				"0"
 		"default"					"1"
-		"labeltext" 				"SCOREBOARD"
+		"labeltext" 				"HEALTH STYLE"
 		"command" 					"engine toggle cl_hud_minmode"
 		"proportionaltoparent"		"1"
 		
 		"fgcolor_override"			"236 236 236 60"
 		"defaultfgcolor_override"	"236 236 236 60"
 		"armedfgcolor_override"		"236 236 236 240"
+		"armedbgcolor_override"		"60 163 115 160"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"

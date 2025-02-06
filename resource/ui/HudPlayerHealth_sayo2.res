@@ -37,7 +37,7 @@
 		"xpos"										"76"
 		"ypos"										"95"
 		"zpos"										"3"
-		"wide"										"58"
+		"wide"										"58"	//59 for 4:3
 		"tall"										"60"
 		"visible"									"1"
 		"enabled"									"1"
@@ -77,10 +77,10 @@
 		"fgcolor"									"Health Numbers"
 	}
 	
-	"PlayerStatusHealthValueshadow"
+	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"								"CExLabel"
-		"fieldName"									"PlayerStatusHealthValueshadow"
+		"fieldName"									"PlayerStatusHealthValueShadow"
 		"xpos"										"69"
 		"ypos"										"105"	
 		"zpos"										"5"

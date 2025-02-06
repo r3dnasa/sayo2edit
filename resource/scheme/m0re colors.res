@@ -57,6 +57,8 @@ Scheme
 		"softred160"							"180 65 55 160"
 		"TanDark_Colly"							"236 236 236 60"
 		"TanLight_Colly"						"236 236 236 235"
+		"CollyHudDarkGray"						"39 39 40 255"
+		"softgreen"								"60 163 115 255"
 		
 	}
 	

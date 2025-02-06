@@ -46,7 +46,7 @@
 			"proportionaltoparent"					"1"
 			"paintbackground"						"1"
 			"paintbackgroundtype"					"0"
-			"bgcolor_override"						"0 0 0 165"
+			"bgcolor_override"						"0 0 0 90"
 		}
 
 		"PartySlot0"
@@ -582,6 +582,16 @@
 
 
 		////// DELETED
+		"DisconnectButton"
+	{
+		"ControlName"								"editablepanel"
+		"fieldName"									"DisconnectButton"
+		"xpos"										"999999"
+		"visible"									"0"
+		"enabled"									"0"
+		"wide"										"0"
+		"tall"										"0"
+	}
 		"QuitButton"
 		{
 			"ControlName"							"CExImageButton"
