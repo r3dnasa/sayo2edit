@@ -5,7 +5,7 @@ Scheme
 		"Health Numbers"									"235 235 235 255"
 		
 		"Ammo In Clip"										"235 235 235 255"
-		"Ammo In Reserve"									"50 255 187 255"
+		"Ammo In Reserve"									"50 255 187 255"	//"235 235 235 255"
 		"Ammo No Clip"										"235 235 235 255"
 
 		"Low Ammo In Clip"									"232 0 0 255"	//"222 187 255 255"
@@ -19,7 +19,8 @@ Scheme
 		"Damage Numbers"									"235 235 235 255"
 		"Heal Numbers"										"0 255 0 255"
 		
-		"Buffed HP"											"50 255 187 255"	// same as reserve ammo
+		"Buffed HP"											"235 235 235 255"	//"50 255 187 255"	// same as reserve ammo
+		"Buffed HP Cross"									"50 255 187 255"	// same as reserve ammo
 		"TargetID Buffed HP"								"67 161 246 255"	//light blue
 		"TargetID Hurt"										"255 153 0 255"		//rayshud orange
 		
@@ -37,6 +38,7 @@ Scheme
 		"TransparentLightBlack"								"0 0 0 100"
 		"TransparentLightestBlack"							"0 0 0 50"
 		"FooterBGBlack"										"35 32 33 255"
+		"Class_Selection"									"50 255 187 255"
 	
 		"RedTeam" 			"200 65 55 200"				//Semi-transparent red team color for hud bg's 200 65 55
 		"RedTeamS" 			"200 65 55 255"				//Solid red team color for hud bg's

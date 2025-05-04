@@ -2433,6 +2433,7 @@
 		"defaultfgcolor_override"	"236 236 236 60"
 		"armedfgcolor_override"		"236 236 236 160"
 		"armedbgcolor_override"		"255 255 255 16"
+		"depressedBgColor_override" "255 255 255 16"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -2504,6 +2505,7 @@
 		"defaultfgcolor_override"	"236 236 236 60"
 		"armedfgcolor_override"		"236 236 236 160"
 		"armedbgcolor_override"		"255 255 255 16"
+		"depressedBgColor_override" "255 255 255 16"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -2564,6 +2566,7 @@
 		"defaultfgcolor_override"	"236 236 236 60"
 		"armedfgcolor_override"		"236 236 236 240"
 		"armedbgcolor_override"		"softred160"
+		"depressedBgColor_override"	"softred160"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -2624,6 +2627,7 @@
 		"defaultfgcolor_override"	"236 236 236 60"
 		"armedfgcolor_override"		"236 236 236 240"
 		"armedbgcolor_override"		"softred160"
+		"depressedBgColor_override"	"softred160"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -2683,6 +2687,7 @@
 		"defaultfgcolor_override"	"236 236 236 60"
 		"armedfgcolor_override"		"236 236 236 240"
 		"armedbgcolor_override"		"60 163 115 160"
+		"depressedBgColor_override"	"60 163 115 160"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -2743,6 +2748,7 @@
 		"defaultfgcolor_override"	"236 236 236 60"
 		"armedfgcolor_override"		"236 236 236 160"
 		"armedbgcolor_override"		"255 255 255 16"
+		"depressedBgColor_override" "255 255 255 16"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -2807,6 +2813,7 @@
 		"defaultfgcolor_override"	"236 236 236 60"
 		"armedfgcolor_override"		"236 236 236 160"
 		"armedbgcolor_override"		"255 255 255 16"
+		"depressedBgColor_override" "255 255 255 16"
 
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
@@ -2898,6 +2905,63 @@
 		}		
 
 		"pin_to_sibling" 			"SettingsButtonR"
+		"pin_corner_to_sibling" 	"PIN_TOPRIGHT" // This Element
+		"pin_to_sibling_corner" 	"PIN_TOPRIGHT" // Target Element
+	}
+	"CreateServerButton"
+	{
+		"ControlName"				"CExImageButton"
+		"fieldName"					"CreateServerButton"
+		"xpos"						"0"
+		"ypos"						"0"
+		"zpos"						"27"
+		"wide"						"11"
+		"tall"						"12"
+		"autoResize"				"0"
+		"pinCorner"					"3"
+		"visible"					"1"
+		"enabled"					"1"
+		"tabPosition"				"0"
+		"labelText"					"+"
+		"textAlignment"				"center"
+		"font"						"product16"
+		"textinsetx"				"0"
+		"textinsety"				"-2"
+		"dulltext"					"0"
+		"brighttext"				"0"
+		"default"					"1"
+		"Command"					"OpenCreateMultiplayerGameDialog"
+		"use_proportional_insets"	"1"
+		
+		"paintbackground"			"0"
+
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		"border_default"			"NoBorder"
+		
+		"fgcolor_override"			"236 236 236 60"
+		"defaultfgcolor_override"	"236 236 236 60"
+		"image_drawcolor"			"236 236 236 60"
+		"image_armedcolor"			"236 236 236 200"
+		
+		"SubImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"SubImage"
+			"xpos"					"cs-0.5"
+			"ypos"					"cs-0.5"
+			"zpos"					"1"
+			"wide"					"f4"
+			"tall"					"f4"
+			"visible"				"0"
+			"enabled"				"1"
+			"scaleImage"			"1"
+			"image"					"replay/thumbnails/softicons/gear"
+			"scaleImage"			"1"
+			"proportionaltoparent"	"1"
+		}		
+
+		"pin_to_sibling" 			"ServerBrowserButton"
 		"pin_corner_to_sibling" 	"PIN_TOPRIGHT" // This Element
 		"pin_to_sibling_corner" 	"PIN_TOPRIGHT" // Target Element
 	}

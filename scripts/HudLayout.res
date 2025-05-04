@@ -58,9 +58,9 @@
 		"wide"										"200"
 		"tall"										"160"
 		
-		"blue_active_xpos"							"54"
+		"blue_active_xpos"							"61"
 	
-		"red_active_xpos"							"104"
+		"red_active_xpos"							"98"
 
 	}
 
@@ -179,8 +179,8 @@
 		"fieldName" 								"DisguiseStatus"
 		"visible"									"1"
 		"enabled"									"1"
-		"xpos"										"-240"	//-290, -260
-		"ypos"										"5"		//60, 5
+		"xpos"										"-10"	//-290, -260, -240
+		"ypos"										"-18"		//60, 5
 		"wide"										"f0"
 		"tall"										"480"
 	}
@@ -234,7 +234,7 @@
 		"PaintBackgroundType"						"2"
 	}
 		
-	HudRoundTimerHudRoundTimer
+	HudRoundTimer
 	{
 		"fieldName" 								"HudRoundTimer"
 		"xpos"										"c-20"

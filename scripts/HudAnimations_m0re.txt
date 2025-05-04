@@ -27,8 +27,11 @@ event HudHealthBonusPulse
 	Animate PlayerStatusHealthvalueSpecgui 		Alpha 		"255"								Linear 	0.0 0.01
 	Animate PlayerStatusHealthvalueSpecgui 		FgColor 	"TargetID Buffed HP" 				Linear 	0.0 0.0
 	
-	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValue				Alpha 		"255" 								Linear 	0.0 0.01
 	Animate PlayerStatusHealthValue				FgColor 	"Buffed HP" 						Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueCROSS		Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValueCROSS		FgColor 	"Buffed HP Cross" 						Linear 	0.0 0.0
 	
 	Animate PlayerStatusHealthvalueTargetID		Alpha 		"255" 								Linear 	0.0 0.01
 	Animate PlayerStatusHealthvalueTargetID 	FgColor 	"TargetID Buffed HP" 				Linear 	0.0	0.0
@@ -57,16 +60,14 @@ event HudHealthBonusPulseStop
 	Animate PlayerStatusHealthvalueSpecguiLow 	Alpha 		"0" 								Linear 	0.0 0.0
 	Animate PlayerStatusHealthvalueSpecguiLow 	FgColor 	"0 0 0 0" 							Linear 	0.0 0.0
 	
-	Animate PlayerStatusHealthValue 			Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValue 			FgColor 	"Health Numbers" 					Linear 	0.0 0.0
+	Animate PlayerStatusHealthValue				Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValue				FgColor 	"Health Numbers" 					Linear 	0.0 0.0
+	
+	Animate PlayerStatusHealthValueCROSS		Alpha 		"255" 								Linear 	0.0 0.01
+	Animate PlayerStatusHealthValueCROSS		FgColor 	"Health Numbers" 					Linear 	0.0 0.0
 	
 	Animate PlayerStatusHealthvalueTargetID		Alpha 		"255" 								Linear 	0.0 0.01
 	Animate PlayerStatusHealthvalueTargetID 	FgColor 	"Health Numbers" 					Linear 	0.0	0.0
-	
-	// maybe unnecessary?
-	
-	Animate PlayerStatusHealthValueMain			Alpha 		"255" 								Linear 	0.0 0.01
-	Animate PlayerStatusHealthValueMain 		FgColor 	"Health Numbers" 					Linear 	0.0	0.0
 	
 }
 
@@ -164,8 +165,8 @@ event HudMedicCharged
 	Animate	ChargeMeter 	            		FgColor		"Ubercharge Full"		            Linear 0.3 0.4
 //	Animate ChargeMeter 						FgColor 	"Ubercharge Bar" 					Accel 	0.0 0.0
 
-	Animate	ReadyLabel 	                        FgColor		"Ubercharge Full2"		            Linear 0.0 0.1
-	Animate	ReadyLabel 	                        FgColor		"Ubercharge Full"		            Linear 0.3 0.4
+//	Animate	ReadyLabel 	                        FgColor		"Ubercharge Full2"		            Linear 0.0 0.1
+//	Animate	ReadyLabel 	                        FgColor		"Ubercharge Full"		            Linear 0.3 0.4
 //	Animate ReadyLabel 							FgColor 	"Ubercharge Bar" 					Accel 	0.0 0.0
 	Animate UberLabel 							FgColor 	"Blank" 							Accel 	0.0 0.0
 	
@@ -264,7 +265,7 @@ event ActiveTimerHighlight
 
 event DamagedPlayer
 {
-	RunEvent ScopeRemoval 				0.0
+//	RunEvent ScopeRemoval 				0.0
 }
 
 event CompetitiveGame_RestoreChatWindow

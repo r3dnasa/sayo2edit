@@ -1,4 +1,4 @@
-#base "../../resource/extras/scoreboard/compsafe.res"
+//#base "../../resource/extras/scoreboard/compsafe.res"
 
 "Resource/UI/Scoreboard.res"
 {
@@ -2178,4 +2178,4 @@
 }
 
 // Do not touch this at all, it is vital for the scoreboard to display correctly.
-#base "../../resource/extras/scoreboard/regular.res"
+//#base "../../resource/extras/scoreboard/regular.res"

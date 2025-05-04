@@ -253,14 +253,17 @@ Scheme
 		Border.Dark						"Black"		// the dark/unlit side of a control
 		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"TanLight"
+		// had to nuke this
+		// kind of annoying but what can ya do
+
+		Button.TextColor				"245 245 245 235"		//"TanLight"
 		Button.BgColor									"MenuTransBlack"
 		Button.ArmedTextColor							"White"
-		Button.ArmedBgColor				"TFOrange"
-		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"TFOrange"
+		Button.ArmedBgColor				"255 255 255 16"	//"TFOrange"
+		Button.SelectedTextColor		"245 245 245 235"	//"TanLight"
+		Button.SelectedBgColor			"255 255 255 16"	//"TFOrange"
 		Button.DepressedTextColor		"Black"
-		Button.DepressedBgColor			"TFOrange"
+		Button.DepressedBgColor			"255 255 255 16"	//"TFOrange"
 
 		CheckButton.TextColor			"Yellow"
 		CheckButton.SelectedTextColor	"Yellow"
@@ -533,10 +536,9 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"16"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -579,10 +581,9 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"30"
+				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -663,9 +664,8 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"700"
-				"yres"	"1200 10000"
 				"antialias" "1"
 			}
 		}
@@ -712,7 +712,7 @@ Scheme
 			"5"
 			{
 				"name"		"TF2"
-				"tall"		"52"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -792,16 +792,25 @@ Scheme
 			}
 		}
 		"HudFontMediumSecondary"
-		{
-			"1"
-			{
-				"name"		"TF2 Secondary"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
-			}
-		}
+        {
+            "1"
+            {
+                "name"        "TF2 Secondary"
+                "tall"        "24"
+                "weight"    "500"
+                "yres"        "1 1199"
+                "additive"    "0"
+                "antialias" "1"
+            }
+            "2" // Misyl: Proportional
+            {
+                "name"        "TF2 Secondary"
+                "tall"        "10"
+                "weight"    "500"
+                "additive"    "0"
+                "antialias" "1"
+            }
+        }
 		"HudFontMediumBold"
 		{
 			"1"
@@ -2635,7 +2644,6 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -2692,7 +2700,6 @@ Scheme
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"

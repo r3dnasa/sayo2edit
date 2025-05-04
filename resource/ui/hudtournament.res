@@ -453,22 +453,22 @@
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
 		"font"			"m0refont8"
-		"xpos"			"c-43"
+		"xpos"			"c-36"
 		"ypos"			"6"
 		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"20"
+		"wide"			"33"
+		"tall"			"18"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textinsety"		"3"
+		"textinsety"		"1"
 		"wrap"			"0"
 		"labelText"		"%bluestate%"
 		"textAlignment"		"center"
-		"bgcolor"		"0 0 0 160"
+		"bgcolor"		"0 0 0 100"
 		"use_proportional_insets"	"1"
-		"bgcolor_override"		"0 0 0 160"
+		"bgcolor_override"		"0 0 0 100"
 		
 		if_mvm
 		{
@@ -485,10 +485,10 @@
 	{	
 		"ControlName"		"editablepanel"
 		"fieldName"		"TournamentBLUEStateBorder"
-		"xpos"			"c-43"
+		"xpos"			"c-36"
 		"ypos"			"6"
 		"zpos"			"2"
-		"wide"			"40"
+		"wide"			"33"
 		"tall"			"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -548,19 +548,19 @@
 		"xpos"			"c3"
 		"ypos"			"6"
 		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"20"
+		"wide"			"33"
+		"tall"			"18"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"textinsety"		"3"
+		"textinsety"		"1"
 		"labelText"		"%redstate%"
 		"textAlignment"		"center"
 		"use_proportional_insets"	"1"
-		"bgcolor"		"0 0 0 160"
-		"bgcolor_override"		"0 0 0 160"
+		"bgcolor"		"0 0 0 100"
+		"bgcolor_override"		"0 0 0 100"
 	
 		if_mvm
 		{
@@ -580,7 +580,7 @@
 		"xpos"			"c3"
 		"ypos"			"6"
 		"zpos"			"2"
-		"wide"			"40"
+		"wide"			"33"
 		"tall"			"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -696,47 +696,12 @@
 		"textAlignment"	"left"
 
 	}
-	
-	"CountdownBG"
-	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"CountdownBG"
-		"xpos"			"230"
-		"ypos"			"r55"
-		"zpos"			"1"
-		"wide"			"40"
-		"tall"			"40"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../HUD/color_panel_red"
-
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
-		"proportionaltoparent"	"1"
-
-		if_competitive
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"150"
-		}
-
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
-	}
 
 	"CountdownLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"m0refont24Shadow"
 		"xpos"			"230"
 		"ypos"			"r55"
 		"wide"			"40"
@@ -750,53 +715,32 @@
 		"labelText"		"%tournamentstatelabel%"
 		"textAlignment"		"center"
 		"proportionaltoparent"	"1"
+		"fgcolor"				"white"
 
-		if_competitive
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.1"
-			"fgcolor"		"TanLight"
-			"font"			"HudFontGiant"
-		}
-
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
 	}
 	
+	// removed
+	
+	"CountdownBG"
+	{
+		"ControlName"								"ScalableImagePanel"
+		"FieldName"									"CountdownBG"
+		"XPos"										"9999"
+		"YPos"										"9999"
+		"Wide"										"0"
+		"Tall"										"0"
+		"Visible"									"0"
+		"Enabled"									"0"
+	}
 	"CountdownLabelShadow"
-	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"CountdownLabelShadow"
-		"font"			"HudFontGiant"
-		"xpos"			"231"
-		"ypos"			"r54"
-		"wide"			"40"
-		"tall"			"40"
-		"zpos"			"4"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"wrap"			"0"
-		"labelText"		"%tournamentstatelabel%"
-		"textAlignment"		"center"
-		"fgcolor"		"Black"
-		"proportionaltoparent"	"1"
-
-		if_competitive
-		{
-			"xpos"			"cs-0.48"
-			"ypos"			"cs-0.08"
-			"font"			"HudFontGiant"
-		}
-
-		if_readymode
-		{
-			"xpos"			"300"
-			"ypos"			"130"
-		}
+	{
+		"ControlName"								"CExLabel"
+		"FieldName"									"CountdownLabelShadow"
+		"XPos"										"9999"
+		"YPos"										"9999"
+		"Wide"										"0"
+		"Tall"										"0"
+		"Visible"									"0"
+		"Enabled"									"0"
 	}
 }

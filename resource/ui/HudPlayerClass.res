@@ -1,5 +1,5 @@
-#base "xhair.res"
-#base "speedometre.res"
+//#base "xhair.res"
+//#base "speedometre.res"
 "Resource/UI/HudPlayerClass.res"
 {
 //	"speedo"

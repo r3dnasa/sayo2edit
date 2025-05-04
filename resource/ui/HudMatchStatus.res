@@ -189,8 +189,8 @@
 		"visible"									"0"
 		"enabled"									"1"
 		"delta_item_x"								"38"
-		"delta_item_start_y"						"27"
-		"delta_item_end_y"							"27"
+		"delta_item_start_y"						"29"
+		"delta_item_end_y"							"29"
 		"PositiveColor"								"0 255 0 255"
 		"NegativeColor"								"255 0 0 255"
 		"delta_lifetime"							"2"
@@ -216,8 +216,8 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"fillcolor"		"0 0 0 160"
-			"bgcolor_override"		"0 0 0 160"
+			"fillcolor"		"0 0 0 100"
+			"bgcolor_override"		"0 0 0 100"
 			if_match
 			{
 //				"font"								"M0refont14Bold"
@@ -244,11 +244,11 @@
 		"12v12_gap"									"1"
 
 		"team1_grow_dir"							"west"
-		"team1_base_x"								"c-45"	//c-45
+		"team1_base_x"								"c-40"	//c-45
 		"team1_max_expand"							"260"
 
 		"team2_grow_dir"							"east"
-		"team2_base_x"								"c45"	//c47
+		"team2_base_x"								"c40"	//c45
 		"team2_max_expand"							"260"
 
 		"PlayerPanels_KV"
@@ -287,7 +287,7 @@
 				"font"								"VerdanaSmallest"
 				"textinsetx"						"1"
 				"textAlignment"						"west"
-				"bgcolor_override"					"TransparentLightBlack"
+				"bgcolor_override"					"0 0 0 100"
 				"proportionaltoparent"				"1"
 			}
 			"ClassImage"

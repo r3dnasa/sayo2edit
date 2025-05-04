@@ -86,7 +86,7 @@
 			"fieldName"								"TimePanelValue"
 			"font"									"M0refont14Bold"
 			"fgcolor"								"White"
-			"xpos"									"29"
+			"xpos"									"36"
 			"ypos"									"1"
 			"zpos"									"3"
 			"wide"									"33"
@@ -95,8 +95,8 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"fillcolor"		"0 0 0 160"
-			"bgcolor_override"		"0 0 0 160"
+			"fillcolor"								"0 0 0 100"
+			"bgcolor_override"						"0 0 0 100"
 			
 			if_match
 			{
@@ -128,7 +128,7 @@
 			"fieldName"								"TimePanelValue"
 			"font"									"M0refont14Bold"
 			"fgcolor"								"White"
-			"xpos"									"29"
+			"xpos"									"23"
 			"ypos"									"1"
 			"zpos"									"3"
 			"wide"									"33"
@@ -137,8 +137,8 @@
 			"enabled"								"1"
 			"textAlignment"							"center"
 			"labelText"								"0:00"
-			"fillcolor"		"0 0 0 160"
-			"bgcolor_override"		"0 0 0 160"
+			"fillcolor"								"0 0 0 100"
+			"bgcolor_override"						"0 0 0 100"
 			
 			if_match
 			{
@@ -154,13 +154,13 @@
 		"ControlName"								"ImagePanel"
 		"fieldName"									"ActiveTimerBG"
 		"xpos"										"0"
-		"ypos"										"19"
-		"zpos"										"1"
+		"ypos"										"1"
+		"zpos"										"10"
 		"wide"										"33"
 		"tall"										"2"
 		"visible"									"0"
-		"enabled"									"0"
-		"fillcolor"  								"0 255 0 160"	
+		"enabled"									"1"
+		"fillcolor"  								"0 255 0 100"	
 		"scaleImage"								"1"	
 	}
 }

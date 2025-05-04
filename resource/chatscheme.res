@@ -813,7 +813,7 @@
 		"2" "resource/HL2EP2.ttf"
 		"3"
 		{
-			"font"	"resource/scheme/fonts/m0rehud_icons.ttf"
+			"font"	"resource/fonts/m0rehud_icons.ttf"
 			"name"	"m0rehud Icons V11"
 		}
 		"4"

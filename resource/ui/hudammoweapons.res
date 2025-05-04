@@ -32,7 +32,7 @@
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"M0refont49C"
+		"font"										"M0refont56C"	//M0refont49C smaller font
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
 		"fgcolor"									"Ammo In Clip"
@@ -45,16 +45,16 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInClipShadow"
-		"xpos"										"-1"
+		"xpos"										"-2"
 //		"xpos"										"-2"	//for 4:3
-		"ypos"										"-4"
+		"ypos"										"-2"	//4 //alt
 		"zpos"										"5"
-		"wide"										"151"
-		"tall"										"75"
+		"wide"										"150"	//151
+		"tall"										"80"	//75
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"M0refont49C"
-		"textinsetx"								"1"							// OH MY GOD
+		"font"										"M0refont56C"	//M0refont49C smaller font
+//		"textinsetx"								"1"							// OH MY GOD
 		"textAlignment"								"east"
 		"labelText"									"%Ammo%"
 		"fgcolor"									"Black"
@@ -71,14 +71,14 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoInReserve"
-		"xpos"										"0"
+		"xpos"										"-1"
 		"ypos"										"-8"
 		"zpos"										"7"
 		"wide"										"150"
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"m0refont23Bold"
+		"font"										"M0refont25C"	//m0refont23Bold
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
 		"fgcolor"									"Ammo In Reserve"
@@ -98,7 +98,7 @@
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"m0refont23Bold"
+		"font"										"M0refont25C"	//m0refont23Bold
 		"textAlignment"								"west"
 		"labelText"									"%AmmoInReserve%"
 		"fgcolor"									"Black"
@@ -120,7 +120,7 @@
 		"tall"										"80"
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"M0refont49C"
+		"font"										"M0refont56C"	//M0refont49C smaller font
 		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
 		"fgcolor"									"Ammo No Clip"
@@ -133,21 +133,21 @@
 	{
 		"ControlName"								"CExLabel"
 		"fieldName"									"AmmoNoClipShadow"
-		"xpos"										"-2"
-		"ypos"										"-3"
+		"xpos"										"-2"	//-2
+		"ypos"										"-2"	//-3
 		"zpos"										"5"
-		"wide"										"149"
-		"tall"										"78"
+		"wide"										"150"	//149
+		"tall"										"80"	//78
 		"visible"									"0"
 		"enabled"									"1"
-		"font"										"M0refont49C"
+		"font"										"M0refont56C"	//M0refont49C smaller font
 		"textAlignment"								"center"
 		"labelText"									"%Ammo%"
 		"fgcolor"									"Black"
 
 		"pin_to_sibling"							"AmmoNoClip"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_corner_to_sibling"						"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 					"PIN_TOPLEFT"
 	}
 
 

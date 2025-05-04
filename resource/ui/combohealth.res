@@ -13,7 +13,7 @@
 		"visible"						"1"
 		"enabled"						"1"
 		"HealthBonusPosAdj"				"32"
-		"HealthDeathWarning"			"0.49"
+		"HealthDeathWarning"			"0.499"		//0.49
 		"HealthDeathWarningColor"		"HudDeathWarning"
 
 		// cross stuff minmode
@@ -69,11 +69,11 @@
 	{
 		"ControlName"					"ImagePanel"
 		"fieldName"						"PlayerStatusHealthBonusImage"
-		"xpos"							"59"
-		"ypos"							"53"
+		"xpos"							"54"	//59
+		"ypos"							"49"	//53
 		"zpos"							"-4"
-		"wide"							"44"
-		"tall"							"44"
+		"wide"							"54"	//44 for smaller font
+		"tall"							"54"	//44 for smaller font
 		"visible"						"0"
 		"enabled"						"1"
 		"image"							"../hud/health_over_bg"
@@ -99,16 +99,19 @@
 		"enabled"						"1"
 		"labelText"						"%Health%"
 		"textAlignment"					"center"
-		"font"							"M0refont49C"
+		"font"							"M0refont56C"	//M0refont49C for smaller font
 		"fgcolor"						"Health Numbers"
 
 		// cross stuff minmode
-		"xpos_minmode"					"68"
-		"ypos_minmode"					"104"
-		"zpos_minmode"					"5"
-		"wide_minmode"					"74"
-		"tall_minmode"					"40"
-		"font_minmode"					"M0refont28"
+//		"xpos_minmode"					"68"
+//		"ypos_minmode"					"104"
+//		"zpos_minmode"					"5"
+//		"wide_minmode"					"74"
+//		"tall_minmode"					"40"
+//		"font_minmode"					"M0refont28"
+		
+		"wide_minmode"					"0"
+		"tall_minmode"					"0"
 	}
 
 	"PlayerStatusHealthValueShadow"
@@ -117,37 +120,95 @@
 		"fieldName"						"PlayerStatusHealthValueShadow"
 		
 		// non pin position
-		//"xpos"							"34"
-		//"ypos"							"36"	//32
+		//"xpos"						"34"
+		//"ypos"						"36"	//32
 
-		"xpos"								"-2"
-		"ypos"								"-2"
-		"zpos"								"6"
-		"wide"								"95"
-		"tall"								"67"
-		"visible"							"1"
-		"enabled"							"1"
-		"labelText"							"%Health%"
-		"textAlignment"						"center"
-		"font"								"M0refont49C"
-		"fgcolor"							"0 0 0 255"
+		"xpos"							"-2"
+		"ypos"							"-2"
+		"zpos"							"6"
+		"wide"							"96"	//95
+		"tall"							"68"	//67
+		"visible"						"1"
+		"enabled"						"1"
+		"labelText"						"%Health%"
+		"textAlignment"					"center"
+		"font"							"M0refont56C"	//M0refont49C for smaller font
+		"fgcolor"						"0 0 0 255"
 
-		"pin_to_sibling"		"PlayerStatusHealthValue"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_TOPLEFT"
+		"pin_to_sibling"				"PlayerStatusHealthValue"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
 
 		// cross stuff minmode
-		"xpos_minmode"						"-1"
-		"ypos_minmode"						"-1"
+//		"xpos_minmode"					"-1"
+//		"ypos_minmode"					"-1"
 		
 		// non pin position
-		//"xpos_minmode"					"69"
-		//"ypos_minmode"					"105"
+		//"xpos_minmode"				"69"
+		//"ypos_minmode"				"105"
 		
-		"zpos_minmode"						"5"
-		"wide_minmode"						"74"	//75 for 4:3
-		"tall_minmode"						"40"
-		"font_minmode"						"M0refont28"
+//		"zpos_minmode"					"5"
+//		"wide_minmode"					"74"	//75 for 4:3
+//		"tall_minmode"					"40"
+//		"font_minmode"					"M0refont28"
+
+		"enabled_minmode"				"0"
+		"visible_minmode"				"0"
+	}
+	
+	"PlayerStatusHealthValueCROSS"	// so i can recolor the healthcross text in minmode
+	{
+		"ControlName"					"CExLabel"
+		"fieldName"						"PlayerStatusHealthValueCROSS"
+		"xpos"							"68"
+		"ypos"							"104"
+		"zpos"							"5"
+		"wide"							"74"
+		"tall"							"40"
+		"visible"						"0"
+		"enabled"						"0"
+		"labelText"						"%Health%"
+		"textAlignment"					"center"
+		"font"							"M0refont28"
+		"fgcolor"						"Health Numbers"
+		
+		// wtf is jank
+		"enabled_minmode"				"1"
+		"visible_minmode"				"1"
+	}
+	
+	"PlayerStatusHealthValueCROSSShadow"
+	{
+		"ControlName"					"CExLabel"
+		"fieldName"						"PlayerStatusHealthValueCROSSShadow"
+		
+		// non pin position
+		//"xpos"						"34"
+		//"ypos"						"36"	//32
+
+		"xpos"							"-1"
+		"ypos"							"-1"
+		"zpos"							"5"
+		"wide"							"74"	//75 for 4:3	
+		"tall"							"40"
+		"visible"						"0"
+		"enabled"						"0"
+		"labelText"						"%Health%"
+		"textAlignment"					"center"
+		"font"							"M0refont28"
+		"fgcolor"						"0 0 0 255"
+
+		"pin_to_sibling"				"PlayerStatusHealthValueCROSS"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPLEFT"
+		
+		// non pin position
+		//"xpos_minmode"				"69"
+		//"ypos_minmode"				"105"
+
+		// more jank yay
+		"enabled_minmode"				"1"
+		"visible_minmode"				"1"
 	}
 
 

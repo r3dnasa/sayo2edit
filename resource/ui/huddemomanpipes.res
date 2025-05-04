@@ -76,7 +76,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"fgcolor"		"White"
+			"fgcolor"		"235 235 235 255"
 			"font"			"m0refont20Bold"
 		}
 		"NumPipesLabelDropshadow"

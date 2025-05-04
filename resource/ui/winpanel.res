@@ -16,6 +16,24 @@
 			"fieldName"		"BlueScoreBG"
 			"xpos"			"-1"
 			"ypos"			"0"
+			"zpos"			"10"
+			"wide"			"100"
+			"tall"			"2"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			
+			"fillcolor"		"BlueTeamS"
+			"bgcolor_override"		"BlueTeamS"
+		}
+		"BlueScoreBG1"	// ugh stupid fix idk why it does this
+		{
+			"ControlName"		"EditablePanel"
+			"fieldName"		"BlueScoreBG1"
+			"xpos"			"-1"
+			"ypos"			"0"
+			"zpos"			"10"
 			"wide"			"100"
 			"tall"			"2"
 			"autoResize"	"0"
@@ -50,6 +68,24 @@
 			"fieldName"		"RedScoreBG"
 			"xpos"			"101"
 			"ypos"			"0"
+			"zpos"			"10"
+			"wide"			"101"
+			"tall"			"2"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+
+			"fillcolor"		"RedTeamS"
+			"bgcolor_override"		"RedTeamS"
+		}
+		"RedScoreBG1"	// same here like bro why
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedScoreBG1"
+			"xpos"			"101"
+			"ypos"			"0"
+			"zpos"			"10"
 			"wide"			"101"
 			"tall"			"2"
 			"autoResize"	"0"
@@ -238,7 +274,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"		"1"	
-		"border"		"TFFatLineBorderBlueBG"
+		"border"		"UGHTFFatLineBorderBlueBG"
 		"proportionaltoparent"	"1"
 	}
 	"WinPanelBG2"

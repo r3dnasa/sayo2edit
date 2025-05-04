@@ -486,6 +486,96 @@
 	//===================================================================================================
 	// MVM ICONS
 	//===================================================================================================
+	"MvMBombStatusBG"
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"MvMBombStatusBG"
+		"XPos"										"9999"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"Image"										"../hud/bomb_carrier_upgrade_base"
+	}
+	"MvMBombStatusFrame"
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"MvMBombStatusFrame"
+		"XPos"										"9999"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"Image"										"../hud/bomb_carrier_upgrade_frame"
+	}
+	"MvMBombStatusMeter"
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"MvMBombStatusMeter"
+		"XPos"										"9999"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"Image"										"../hud/bomb_carrier_upgrade_meter"
+	}
+	"MvMBombUpgrade1ON"
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"MvMBombUpgrade1ON"
+		"XPos"										"9999"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"Image"										"../hud/hud_mvm_bomb_upgrade_1"
+	}
+	"MvMBombUpgrade1OFF"
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"MvMBombUpgrade1OFF"
+		"XPos"										"9999"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"Image"										"../hud/hud_mvm_bomb_upgrade_1_disabled"
+	}
+	"MvMBombUpgrade2ON"
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"MvMBombUpgrade2ON"
+		"XPos"										"9999"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"Image"										"../hud/hud_mvm_bomb_upgrade_2"
+	}
+	"MvMBombUpgrade2OFF"
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"MvMBombUpgrade2OFF"
+		"XPos"										"9999"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"Image"										"../hud/hud_mvm_bomb_upgrade_2_disabled"
+	}
+	"MvMBombUpgrade3ON"
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"MvMBombUpgrade3ON"
+		"XPos"										"9999"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"Image"										"../hud/hud_mvm_bomb_upgrade_3"
+	}
+	"MvMBombUpgrade3OFF"
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"MvMBombUpgrade3OFF"
+		"XPos"										"9999"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"Image"										"../hud/hud_mvm_bomb_upgrade_3_disabled"
+	}
+	"MvMBombUpgradeBoss"
+	{
+		"ControlName"								"ImagePanel"
+		"FieldName"									"MvMBombUpgradeBoss"
+		"XPos"										"9999"
+		"Visible"									"1"
+		"Enabled"									"1"
+		"Image"										"../hud/hud_mvm_bomb_upgrade_boss"
+	}			  
 	"MvM_PowerUp_Building"
 	{
 		"ControlName"								"ImagePanel"

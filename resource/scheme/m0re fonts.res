@@ -2,14 +2,25 @@ Scheme
 {
 	Fonts
 	{
+		"Oxygen10"
+		{
+			"1"
+			{
+				"name"			"Oxygen Bold"
+				"tall"			"10"
+				"additive"		"0"
+				"antialias"		"1"
+			}
+		}
+		
 		"CrossHairKonrWings"
 		{
 			"1"
 			{
-				"name"		"Garm3nFont"
-				"tall"		"18"
-				"weight"	"0"
-				"antialias"	"1"
+				"name"			"Garm3nFont"
+				"tall"			"18"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
 		"HSYMBOLS16"
@@ -19,6 +30,25 @@ Scheme
 				"name"			"Hypnotize Icons V7"
 				"tall"			"16"
 				"antialias"		"1"
+			}
+		}
+		"KILLK18"
+		{
+			"1"
+			{
+				"name"			"Hypnotize Icons V7"
+				"tall"			"18"
+				"antialias"		"1"
+			}
+		}
+		"product6"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"6"
+				"additive"	"0"
+				"antialias"	"1"
 			}
 		}
 		"product8"
@@ -242,16 +272,6 @@ Scheme
 				"name"										"Verdana"
 				"tall"										"6"
 				"antialias"									"1"
-			}
-		}
-		"m0refont30Numbers"
-		{
-			"1"
-			{
-				"name"										"Surface-Numbers"
-				"tall"										"30"
-				"antialias" 								"1"
-				"outline" 									"1"
 			}
 		}
 		"cdam"
@@ -496,6 +516,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		M0refont18C
+		{
+			"1"
+			{
+				"name"										"Catamaran SemiBold"
+				"tall"										"18"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		"m0refont18Shadow"
 		{
 			"1"
@@ -527,16 +557,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		"m0refont18Numbers"
-		{
-			"1"
-			{
-				"name"										"Surface-Numbers"
-				"tall"										"18"
-				"antialias"									"1"
-				"outline"									"1"
-			}
-		}
+//		"m0refont18Numbers"
+//		{
+//			"1"
+//			{
+//				"name"										"Surface-Numbers"
+//				"tall"										"18"
+//				"antialias"									"1"
+//				"outline"									"1"
+//			}
+//		}
 		M0refont20
 		{
 			"1"
@@ -698,28 +728,29 @@ Scheme
 				"dropshadow"								"1"
 			}
 		}
-		"m0refont24Numbers"
-		{
-			"1"
-			{
-				"name"										"Surface-Numbers"
-				"tall"										"24"
-				"antialias"									"1"
-				"outline"									"1"
-			}
-		}
+//		"m0refont24Numbers"
+//		{
+//			"1"
+//			{
+//				"name"										"Surface-Numbers"
+//				"tall"										"24"
+//				"antialias"									"1"
+//				"outline"									"1"
+//			}
+//		}
 		
-		Score
-		{
-			"1"
-			{
-				"name"										"HeavyCaps"
-				"tall"										"32"
-				"additive"									"0"
-				"antialias" 								"1"
-				"outline"									"0"
-			}
-		}
+//		Score
+//		{
+//			"1"
+//			{
+//				"name"										"HeavyCaps"
+//				"tall"										"32"
+//				"additive"									"0"
+//				"antialias" 								"1"
+//				"outline"									"0"
+//			}
+//		}
+
 		M0refont24Outline
 		{
 			"1"
@@ -729,6 +760,16 @@ Scheme
 				"additive"									"0"
 				"antialias" 								"1"
 				"outline"									"1"
+			}
+		}
+		M0refont25C
+		{
+			"1"
+			{
+				"name"										"Catamaran SemiBold"
+				"tall"										"25"
+				"additive"									"0"
+				"antialias" 								"1"
 			}
 		}
 		M0refont26
@@ -771,16 +812,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
-		"m0refont30Numbers"
-		{
-			"1"
-			{
-				"name"										"Surface-Numbers"
-				"tall"										"30"
-				"antialias"									"1"
-				"outline"									"1"
-			}
-		}
+//		"m0refont30Numbers"
+//		{
+//			"1"
+//			{
+//				"name"										"Surface-Numbers"
+//				"tall"										"30"
+//				"antialias"									"1"
+//				"outline"									"1"
+//			}
+//		}
 		M0refont32
 		{
 			"1"
@@ -1052,6 +1093,16 @@ Scheme
 				"antialias" 								"1"
 			}
 		}
+		M0refont56C
+		{
+			"1"
+			{
+				"name"										"Catamaran SemiBold"
+				"tall"										"56"
+				"additive"									"0"
+				"antialias" 								"1"
+			}
+		}
 		M0refont56Bold
 		{
 			"1"
@@ -1243,11 +1294,11 @@ Scheme
 			"font" 		"resource/fonts/Catamaran-SemiBold.ttf"
 			"name" 		"Catamaran SemiBold"
 		}
-		"13"
-		{
-			"font" 		"resource/fonts/surface_numbers.otf"
-			"name" 		"Surface-Numbers"
-		}
+//		"13"
+//		{
+//			"font" 		"resource/fonts/surface_numbers.otf"
+//			"name" 		"Surface-Numbers"
+//		}
 		"14"
 		{
 			"font"		"resource/fonts/m0rehud_icons.ttf"

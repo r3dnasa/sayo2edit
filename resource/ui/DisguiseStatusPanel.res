@@ -42,7 +42,7 @@
 		"pinCorner"									"0"
 		"visible"									"1"
 		"enabled"									"1"
-		"fillcolor"										"0 0 0 160"
+		"fillcolor"									"0 0 0 100"
 		"scaleImage"								"1"
 		"src_corner_height"	  						"15"
 		"src_corner_width"	  						"15"

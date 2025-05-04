@@ -23,8 +23,8 @@
         "wide"             "6"
         "tall"             "20"
         "bgcolor_override"             "0 0 0 100"
-        "visible"         "1"
-        "enabled"         "1"
+        "visible"         "0"	//1
+        "enabled"         "0"	//1
     }
 	
 	"ItemEffectMeterLabel2"
@@ -36,8 +36,8 @@
 		"tall"					"20"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"	//1
+		"enabled"				"0"	//1
 		"tabPosition"			"0"
 		"labelText"				"FRAGS:"
 		"font"			"productbold8"
@@ -84,8 +84,8 @@
 		"wide"					"40"
 		"tall"					"20"	
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"	//1
+		"enabled"				"0"	//1
 		"labelText"				"%progresscount%"
 		"textAlignment"			"center"
 		"font"					"productbold8"
